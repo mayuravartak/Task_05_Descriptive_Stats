@@ -2,12 +2,14 @@
 This project explores how accurately a Large Language Model (LLM) such as **ChatGPT** can interpret and reason over small structured datasets — in this case, **Syracuse University Women's Lacrosse** team performance data.
 
 The goal is to:
+
 1. Ask the LLM natural-language questions about the dataset.
 2. Observe how it interprets the data and provides answers.
 3. Verify the correctness of responses using manually computed descriptive statistics.
 4. Reflect on its strengths, weaknesses, and reasoning process.
 
 Dataset
+
 The dataset comes from the public SU Women’s Lacrosse statistics page:  
 [Cuse.com Women’s Lacrosse Stats](https://cuse.com/sports/2013/1/16/WLAX_0116134638)
 
