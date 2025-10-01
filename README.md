@@ -15,7 +15,7 @@ The dataset comes from the public SU Women’s Lacrosse statistics page:
 
 All prompts are included in the `prompts.txt`.
 
-The Python script `stats_verification.py` calculates key metrics (total games, goals, assists, averages, leaders, etc.) from a CSV file version of the dataset.
+The Python script `stats_verification.py` calculates key metrics (total games, goals, assists, averages, leaders, etc.) from a CSV file version of the dataset and the output is saved as `validation_summary.csv`
 
 It’s used to **cross-check** whether the LLM’s answers match the actual computed results.
 
