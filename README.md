@@ -13,10 +13,10 @@ Dataset
 The dataset comes from the public SU Women’s Lacrosse statistics page:  
 [Cuse.com Women’s Lacrosse Stats](https://cuse.com/sports/2013/1/16/WLAX_0116134638)
 
-All prompts are included in the `prompts.txt`.
+All prompts are included in the `prompts_used.txt`.
 
-The Python script `stats_verification.py` calculates key metrics (total games, goals, assists, averages, leaders, etc.) from a CSV file version of the dataset and the output is saved as `validation_summary.csv`
+The Python script `verification_code.py` calculates key metrics from a CSV file version of the dataset and the output is saved as `python_response.csv`
 
-It’s used to **cross-check** whether the LLM’s answers match the actual computed results.
+It’s used to **cross-check** whether the LLM’s answers match the actual computed results which are saved in `llm_response.txt`.
 
-You can find the synthesized LLM response analysis in `llm_response_summary.txt`
+You can find the synthesized LLM response analysis in `llm_python_comparison.txt`
