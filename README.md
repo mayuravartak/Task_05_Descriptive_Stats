@@ -12,6 +12,9 @@ The dataset comes from the public SU Women’s Lacrosse statistics page:
 [Cuse.com Women’s Lacrosse Stats](https://cuse.com/sports/2013/1/16/WLAX_0116134638)
 
 All prompts are included in the `prompts/` folder.
+
 The Python script `stats_verification.py` calculates key metrics (total games, goals, assists, averages, leaders, etc.) from a CSV file version of the dataset.
+
 It’s used to **cross-check** whether the LLM’s answers match the actual computed results.
+
 You can find the synthesized LLM response analysis under `/results/llm_response_summary.txt`
