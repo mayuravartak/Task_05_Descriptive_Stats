@@ -1,0 +1,30 @@
+LLM Evaluation Summary – Task 05
+Dataset: Syracuse University Women’s Lacrosse (Public Stats)
+Objective: Evaluate LLM accuracy in interpreting descriptive statistics.
+
+
+Question 1:
+Prompt: How many games did the Syracuse Women’s Lacrosse team play this season?
+LLM Answer: The Syracuse Women’s Lacrosse team played 19 games this season.  
+Python Verified Result: 19 games
+Evaluation:  Correct — matches computed total rows from dataset.
+
+
+Question 2:
+Prompt: What was the team’s overall win percentage based on the results?
+LLM Answer: The team’s overall win percentage was 52.6% (10 wins out of 19 games).  
+Python Verified Result: 52.63%
+Evaluation:  Correct — precise match after rounding.
+
+
+Question 3:
+Prompt: On average, did Syracuse score more goals in home games or away games?
+LLM Answer: On average, Syracuse scored more goals in home games than in away games.  
+Python Verified Result: Home goals average higher than Away.
+Evaluation:  Correct — LLM reasoning consistent with computed averages.
+
+
+Reflection:
+The LLM demonstrated strong descriptive reasoning and basic arithmetic accuracy.
+No prompt rephrasing was needed, and responses aligned fully with verified script results.
+This confirms reliable factual interpretation for simple sports statistics questions.

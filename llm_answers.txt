@@ -1,0 +1,5 @@
+Here are the one-line LLM-style answers based on your dataset:
+
+1. The Syracuse Women’s Lacrosse team played **19 games** this season.
+2. The team’s overall win percentage was **52.6%** (10 wins out of 19 games).
+3. On average, Syracuse scored **more goals in home games** than in away games.
