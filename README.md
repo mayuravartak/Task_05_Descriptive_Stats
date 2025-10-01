@@ -1,5 +1,5 @@
 
-This project explores how accurately a Large Language Model (LLM) such as **ChatGPT** can interpret and reason over small structured datasets — in this case, **Syracuse University Women's Lacrosse** team performance data.
+This project explores how accurately a Large Language Model (LLM) such as **ChatGPT** can interpret and reason over small structured datasets.
 
 The goal is to:
 
